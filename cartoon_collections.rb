@@ -13,9 +13,9 @@ end
 def long_planeteer_calls(calls)
   puts "heyheyheyhey"
   call = calls.map {|i| i}
-  if  call.length < 4
+  if  call.size < 4
   false
-  elsif call.length >= 4
+elsif call.size >= 4
     return true
   else
     false
