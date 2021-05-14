@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(calls)
   puts "heyheyheyhey"
-  call = calls.map {|i| if i.size >= 4 true}
+  call = calls.map {|i| if i.size >= 4 return true end}
   #if  call.length < 4
   #false
   #elsif call.length >= 4
