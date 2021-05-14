@@ -12,14 +12,14 @@ end
 
 def long_planeteer_calls(calls)
   puts "heyheyheyhey"
-  call = calls.map {|i| i.size}
-  #if  call.length < 4
-  #false
-  #elsif call.length >= 4
-#    return true
-#  else
-#    false
-#  end
+  call = calls.map {|i| i}
+  if  call.length < 4
+  false
+  elsif call.length >= 4
+    return true
+  else
+    false
+  end
 end
 
 def find_the_cheese# code an argument here
