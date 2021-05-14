@@ -1,13 +1,24 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+
+def roll_call_dwarves(names)
+names.map.with_index(1){|name, index| puts "#{index} #{name}" }
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(calls)
+  new_call = calls.map {|i| i.capitalize}
+
+  new_call.map {|i| i << "!"}
+
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls)
+  call = calls.map {|i| "i".length}
+  if  call.length < 4
+  false
+  elsif call.length >= 4
+    return true
+  else
+    false
+  end
 end
 
 def find_the_cheese# code an argument here
