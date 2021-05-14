@@ -21,7 +21,7 @@ calls.each do |i|
 
 def find_the_cheese(array)
   # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  #cheese_types = ["cheddar", "gouda", "camembert"]
   array.detect {|i| i.include?("cheddar")}
 
 end
