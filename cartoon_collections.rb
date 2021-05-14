@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(calls)
   call = calls.each {|i| i}
-  if  call.size < 4
+  if  call.size !> 4
   false
 elsif call.size >= 4
     return true
