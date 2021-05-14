@@ -11,8 +11,7 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(calls)
-  puts "heyheyheyhey"
-  call = calls.map {|i| i}
+  call = calls.each {|i| i}
   if  call.size < 4
   false
 elsif call.size >= 4
